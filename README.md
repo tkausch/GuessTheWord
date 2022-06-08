@@ -1,5 +1,5 @@
 
-# GuessTheWord
+# GuessTheWord / Wordle
 
 [![Swift](https://img.shields.io/badge/Swift-5.4-blue.svg)](https://swift.org)
 [![Xcode](https://img.shields.io/badge/Xcode-13.4-blue.svg)]()
