@@ -11,3 +11,5 @@ five-letter word, with feedback given for each guess in the form of colored tile
 when letters match or occupy the correct position. 
 
 This is a simple implementation in Swift using SwiftUI.  
+
+![Wordl Sample](./images/Wordle_196_example.svg)
