@@ -92,8 +92,8 @@ class WordlGame: ObservableObject {
     var targetLettersRemaining = Array(targetWord)
   
     for index in words[currentGuess].letters.indices {
-      let stringIndex = targetWord.index(targetWord.startIndex, offsetBy: index)
-      let letterAtIndex = String(targetWord[stringIndex])
+      let letterIdx = targetWord.index(targetWord.startIndex, offsetBy: index)
+      let letterAtIndex = String(targetWord[letterIdx])
       
       if letterAtIndex == words[currentGuess].letters[index].letter {
       
@@ -106,23 +106,22 @@ class WordlGame: ObservableObject {
       }
     }
 
-    // 1
+  
     for index in words[currentGuess].letters.indices
       .filter({ words[currentGuess].letters[$0].status == .undedfined }) {
-      // 2
+      
       let letterAtIndex = words[currentGuess].letters[index].letter
-      // 3
+      
       var letterStatus = LetterStatus.notInWord
-      // 4
+      
       if targetWord.contains(letterAtIndex) {
-        // 5
         if let guessedLetterIndex =
           targetLettersRemaining.firstIndex(of: Character(letterAtIndex)) {
           letterStatus = .notInPosition
           targetLettersRemaining.remove(at: guessedLetterIndex)
         }
       }
-      // 6
+      
       words[currentGuess].letters[index].status = letterStatus
     }
 

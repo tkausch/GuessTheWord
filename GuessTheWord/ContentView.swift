@@ -7,24 +7,21 @@ import SwiftUI
 struct ContentView: View {
   
   @StateObject var game = WordlGame()
-
+  
   var body: some View {
     VStack {
-      Text("Wördle")
-        .font(.largeTitle)
-        .accessibilityAddTraits(.isHeader)
-      Text("designed by Th. Kausch")
-        .font(.caption)
-      
+      TitleView()
       WordlGameView(wordlGame: game)
+        .background(Color.init(UIColor.white))
       KeyboardView(game: game)
-        .padding(5)
+        .padding(10)
       ActionBarView(
         game: game
       )
     }
     .frame(alignment: .top)
     .padding([.bottom], 10)
+    .background(.bar)
   }
 }
 

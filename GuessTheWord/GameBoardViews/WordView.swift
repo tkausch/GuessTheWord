@@ -36,7 +36,8 @@ struct WordView: View {
           if word.status == .invalidWord {
             Text("Word not in dictionary.")
               .foregroundColor(.red)
-              .background(Color(UIColor.systemBackground).opacity(0.5))
+              .fontWeight(.bold)
+              .background(Color(UIColor.systemBackground).opacity(0.9))
               .onAppear {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
                   word.status = .pending

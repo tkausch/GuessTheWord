@@ -24,6 +24,7 @@
 		A9A91D3B27B18A5E00D9DAFE /* KeyButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A91D3927B18A5E00D9DAFE /* KeyButtonView.swift */; };
 		A9A91D3C27B18A5E00D9DAFE /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A91D3A27B18A5E00D9DAFE /* KeyboardView.swift */; };
 		A9A91D4727B18C1B00D9DAFE /* ActionBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A91D4627B18C1B00D9DAFE /* ActionBarView.swift */; };
+		B6C3581A28577B5C00AECB40 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C3581928577B5C00AECB40 /* TitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		A9A91D3927B18A5E00D9DAFE /* KeyButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyButtonView.swift; sourceTree = "<group>"; };
 		A9A91D3A27B18A5E00D9DAFE /* KeyboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 		A9A91D4627B18C1B00D9DAFE /* ActionBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionBarView.swift; sourceTree = "<group>"; };
+		B6C3581928577B5C00AECB40 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				A9A91D3227B18A3100D9DAFE /* WordView.swift */,
 				A9A91D3027B18A3100D9DAFE /* LetterBoxView.swift */,
 				A9A91D3127B18A3100D9DAFE /* WordlGameView.swift */,
+				B6C3581928577B5C00AECB40 /* TitleView.swift */,
 				A9A91D3327B18A3100D9DAFE /* LetterView.swift */,
 				A9A91D4627B18C1B00D9DAFE /* ActionBarView.swift */,
 			);
@@ -239,6 +242,7 @@
 				A9A91D3427B18A3100D9DAFE /* LetterBoxView.swift in Sources */,
 				A9A91D3C27B18A5E00D9DAFE /* KeyboardView.swift in Sources */,
 				A9A91D2A27B1892800D9DAFE /* Letter.swift in Sources */,
+				B6C3581A28577B5C00AECB40 /* TitleView.swift in Sources */,
 				A9A91D3B27B18A5E00D9DAFE /* KeyButtonView.swift in Sources */,
 				A9A91D3627B18A3100D9DAFE /* WordView.swift in Sources */,
 				A9A91D2927B1892800D9DAFE /* WordlGame.swift in Sources */,
